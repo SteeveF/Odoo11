@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "C:\Users\steev\Desktop\migration",
+    'name': "toto",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
