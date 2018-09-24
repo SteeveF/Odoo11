@@ -1,31 +1,35 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Order Line Session Id",
+    'name': "C:\Users\steev\Desktop\migration",
 
     'summary': """
-        Adds a session id in the lines of Order Lines
-        """,
+        Short (1 phrase/line) summary of the module's purpose, used as
+        subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-        This Module Adds session id to order Lines in Sales orders and in Purchase orders
+        Long description of module's purpose
     """,
 
-    'author': "alc media",
-    'website': "https://www.alcmedia.com/",
+    'author': "My Company",
+    'website': "http://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
     # for the full list
     'category': 'Uncategorized',
-    'version': '0.12',
+    'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'sale', 'purchase'],
+    'depends': ['base'],
 
     # always loaded
     'data': [
         'security/ir.model.access.csv',
+        'views/views.xml',
         'views/templates.xml',
     ],
-
+    # only loaded in demonstration mode
+    'demo': [
+        'demo/demo.xml',
+    ],
 }
