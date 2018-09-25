@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from openerp.osv import fields, osv
+from odoo import models, fields, api
 
 class unique_sku(osv.osv):
     _inherit = 'product.product'
